@@ -15,10 +15,12 @@ const Navigation = () => {
           <IconNotebook size={20} className="me-2" />
           Contacto
         </Link>
-        <Navbar.Brand className="ms-auto">
-          <IconCake size={30} className="me-2" />
-          Happy Cake
-        </Navbar.Brand>
+        <Link to="/" className=" ms-auto text-decoration-none">
+          <Navbar.Brand className="ms-auto">
+            <IconCake size={30} className="me-2" />
+            Happy Cake
+          </Navbar.Brand>
+        </Link>
       </Container>
     </Navbar>
   );
